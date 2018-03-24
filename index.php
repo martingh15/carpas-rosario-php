@@ -326,9 +326,26 @@ if (isset($_SESSION['ultimoAcceso']) && isset($_SESSION['nombre_usuario'])) {
     </row>
 </div>
 
-
-<!-- Footer -->
-<div class="container">
+<!-- Footer gucho-->
+    <div class="container" style="text-align: center; margin-top: 10px">
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 tituloDesc" style="font-size: 1.3vw;">
+                <p>+54 9 341 642 0341</p>
+                <p>+54 9 341 351 9658</p>
+                <p>rosariocarpas@gmail.com</p>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img id="logo" class="img-responsive" src="images/LOGO.png" alt="logo">
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="font-family: NeoSansStd">
+                <p style="font-size: 1.8vw;">Seguinos!</p>
+                <p style="font-size: 1.3vw;"><img src="images/facebook-logo.png"/>  carpasrosario</p>
+                <p style="font-size: 1.3vw;"><img src="images/instagram-logo.png"/>  carpasrosario</p>
+            </div>
+        </div>
+    </div>
+<!-- Footer ivo-->
+<div class="container" style="width: 97%>
     <hr>
     <footer>
         <div class="row">
